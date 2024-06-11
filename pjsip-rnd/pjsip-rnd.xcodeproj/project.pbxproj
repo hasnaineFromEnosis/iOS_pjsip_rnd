@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A93DD8F2C187269006406A7 /* pjsip_rndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93DD8E2C187269006406A7 /* pjsip_rndApp.swift */; };
+		1A93DD912C187269006406A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93DD902C187269006406A7 /* ContentView.swift */; };
+		1A93DD932C18726B006406A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A93DD922C18726B006406A7 /* Assets.xcassets */; };
+		1A93DD962C18726B006406A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A93DD952C18726B006406A7 /* Preview Assets.xcassets */; };
+		1A93DDB02C1872A4006406A7 /* libpjlib-util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DD9C2C1872A3006406A7 /* libpjlib-util.a */; };
+		1A93DDB12C1872A4006406A7 /* libpjsip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DD9D2C1872A3006406A7 /* libpjsip.a */; };
+		1A93DDB22C1872A4006406A7 /* libgsmcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DD9E2C1872A3006406A7 /* libgsmcodec.a */; };
+		1A93DDB32C1872A4006406A7 /* libsrtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DD9F2C1872A4006406A7 /* libsrtp.a */; };
+		1A93DDB42C1872A4006406A7 /* libpjsua2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA02C1872A4006406A7 /* libpjsua2.a */; };
+		1A93DDB52C1872A4006406A7 /* libpjmedia-codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA12C1872A4006406A7 /* libpjmedia-codec.a */; };
+		1A93DDB62C1872A4006406A7 /* libpj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA22C1872A4006406A7 /* libpj.a */; };
+		1A93DDB72C1872A4006406A7 /* libpjnath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA32C1872A4006406A7 /* libpjnath.a */; };
+		1A93DDB82C1872A4006406A7 /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA42C1872A4006406A7 /* libwebrtc.a */; };
+		1A93DDB92C1872A4006406A7 /* libpjmedia-videodev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA52C1872A4006406A7 /* libpjmedia-videodev.a */; };
+		1A93DDBA2C1872A4006406A7 /* libilbccodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA62C1872A4006406A7 /* libilbccodec.a */; };
+		1A93DDBB2C1872A4006406A7 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA72C1872A4006406A7 /* libspeex.a */; };
+		1A93DDBC2C1872A4006406A7 /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA82C1872A4006406A7 /* libyuv.a */; };
+		1A93DDBD2C1872A4006406A7 /* libg7221codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDA92C1872A4006406A7 /* libg7221codec.a */; };
+		1A93DDBE2C1872A4006406A7 /* libpjsip-ua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDAA2C1872A4006406A7 /* libpjsip-ua.a */; };
+		1A93DDBF2C1872A4006406A7 /* libpjmedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDAB2C1872A4006406A7 /* libpjmedia.a */; };
+		1A93DDC02C1872A4006406A7 /* libresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDAC2C1872A4006406A7 /* libresample.a */; };
+		1A93DDC12C1872A4006406A7 /* libpjsip-simple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDAD2C1872A4006406A7 /* libpjsip-simple.a */; };
+		1A93DDC22C1872A4006406A7 /* libpjmedia-audiodev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDAE2C1872A4006406A7 /* libpjmedia-audiodev.a */; };
+		1A93DDC32C1872A4006406A7 /* libpjsua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93DDAF2C1872A4006406A7 /* libpjsua.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A93DD8B2C187269006406A7 /* pjsip-rnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pjsip-rnd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A93DD8E2C187269006406A7 /* pjsip_rndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pjsip_rndApp.swift; sourceTree = "<group>"; };
+		1A93DD902C187269006406A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A93DD922C18726B006406A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A93DD952C18726B006406A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A93DD9C2C1872A3006406A7 /* libpjlib-util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjlib-util.a"; sourceTree = "<group>"; };
+		1A93DD9D2C1872A3006406A7 /* libpjsip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpjsip.a; sourceTree = "<group>"; };
+		1A93DD9E2C1872A3006406A7 /* libgsmcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgsmcodec.a; sourceTree = "<group>"; };
+		1A93DD9F2C1872A4006406A7 /* libsrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsrtp.a; sourceTree = "<group>"; };
+		1A93DDA02C1872A4006406A7 /* libpjsua2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpjsua2.a; sourceTree = "<group>"; };
+		1A93DDA12C1872A4006406A7 /* libpjmedia-codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjmedia-codec.a"; sourceTree = "<group>"; };
+		1A93DDA22C1872A4006406A7 /* libpj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpj.a; sourceTree = "<group>"; };
+		1A93DDA32C1872A4006406A7 /* libpjnath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpjnath.a; sourceTree = "<group>"; };
+		1A93DDA42C1872A4006406A7 /* libwebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebrtc.a; sourceTree = "<group>"; };
+		1A93DDA52C1872A4006406A7 /* libpjmedia-videodev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjmedia-videodev.a"; sourceTree = "<group>"; };
+		1A93DDA62C1872A4006406A7 /* libilbccodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libilbccodec.a; sourceTree = "<group>"; };
+		1A93DDA72C1872A4006406A7 /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeex.a; sourceTree = "<group>"; };
+		1A93DDA82C1872A4006406A7 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
+		1A93DDA92C1872A4006406A7 /* libg7221codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libg7221codec.a; sourceTree = "<group>"; };
+		1A93DDAA2C1872A4006406A7 /* libpjsip-ua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjsip-ua.a"; sourceTree = "<group>"; };
+		1A93DDAB2C1872A4006406A7 /* libpjmedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpjmedia.a; sourceTree = "<group>"; };
+		1A93DDAC2C1872A4006406A7 /* libresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libresample.a; sourceTree = "<group>"; };
+		1A93DDAD2C1872A4006406A7 /* libpjsip-simple.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjsip-simple.a"; sourceTree = "<group>"; };
+		1A93DDAE2C1872A4006406A7 /* libpjmedia-audiodev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpjmedia-audiodev.a"; sourceTree = "<group>"; };
+		1A93DDAF2C1872A4006406A7 /* libpjsua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpjsua.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A93DD882C187269006406A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A93DDB42C1872A4006406A7 /* libpjsua2.a in Frameworks */,
+				1A93DDBB2C1872A4006406A7 /* libspeex.a in Frameworks */,
+				1A93DDB62C1872A4006406A7 /* libpj.a in Frameworks */,
+				1A93DDB32C1872A4006406A7 /* libsrtp.a in Frameworks */,
+				1A93DDBE2C1872A4006406A7 /* libpjsip-ua.a in Frameworks */,
+				1A93DDB82C1872A4006406A7 /* libwebrtc.a in Frameworks */,
+				1A93DDB12C1872A4006406A7 /* libpjsip.a in Frameworks */,
+				1A93DDBD2C1872A4006406A7 /* libg7221codec.a in Frameworks */,
+				1A93DDC02C1872A4006406A7 /* libresample.a in Frameworks */,
+				1A93DDBA2C1872A4006406A7 /* libilbccodec.a in Frameworks */,
+				1A93DDB52C1872A4006406A7 /* libpjmedia-codec.a in Frameworks */,
+				1A93DDC32C1872A4006406A7 /* libpjsua.a in Frameworks */,
+				1A93DDB92C1872A4006406A7 /* libpjmedia-videodev.a in Frameworks */,
+				1A93DDB22C1872A4006406A7 /* libgsmcodec.a in Frameworks */,
+				1A93DDC22C1872A4006406A7 /* libpjmedia-audiodev.a in Frameworks */,
+				1A93DDBF2C1872A4006406A7 /* libpjmedia.a in Frameworks */,
+				1A93DDC12C1872A4006406A7 /* libpjsip-simple.a in Frameworks */,
+				1A93DDB72C1872A4006406A7 /* libpjnath.a in Frameworks */,
+				1A93DDBC2C1872A4006406A7 /* libyuv.a in Frameworks */,
+				1A93DDB02C1872A4006406A7 /* libpjlib-util.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A93DD822C187269006406A7 = {
+			isa = PBXGroup;
+			children = (
+				1A93DD8D2C187269006406A7 /* pjsip-rnd */,
+				1A93DDC42C1872B7006406A7 /* Libraries */,
+				1A93DD8C2C187269006406A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A93DD8C2C187269006406A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A93DD8B2C187269006406A7 /* pjsip-rnd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A93DD8D2C187269006406A7 /* pjsip-rnd */ = {
+			isa = PBXGroup;
+			children = (
+				1A93DD8E2C187269006406A7 /* pjsip_rndApp.swift */,
+				1A93DD902C187269006406A7 /* ContentView.swift */,
+				1A93DD922C18726B006406A7 /* Assets.xcassets */,
+				1A93DD942C18726B006406A7 /* Preview Content */,
+			);
+			path = "pjsip-rnd";
+			sourceTree = "<group>";
+		};
+		1A93DD942C18726B006406A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A93DD952C18726B006406A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A93DDC42C1872B7006406A7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1A93DDA92C1872A4006406A7 /* libg7221codec.a */,
+				1A93DD9E2C1872A3006406A7 /* libgsmcodec.a */,
+				1A93DDA62C1872A4006406A7 /* libilbccodec.a */,
+				1A93DDA22C1872A4006406A7 /* libpj.a */,
+				1A93DD9C2C1872A3006406A7 /* libpjlib-util.a */,
+				1A93DDAE2C1872A4006406A7 /* libpjmedia-audiodev.a */,
+				1A93DDA12C1872A4006406A7 /* libpjmedia-codec.a */,
+				1A93DDA52C1872A4006406A7 /* libpjmedia-videodev.a */,
+				1A93DDAB2C1872A4006406A7 /* libpjmedia.a */,
+				1A93DDA32C1872A4006406A7 /* libpjnath.a */,
+				1A93DDAD2C1872A4006406A7 /* libpjsip-simple.a */,
+				1A93DDAA2C1872A4006406A7 /* libpjsip-ua.a */,
+				1A93DD9D2C1872A3006406A7 /* libpjsip.a */,
+				1A93DDAF2C1872A4006406A7 /* libpjsua.a */,
+				1A93DDA02C1872A4006406A7 /* libpjsua2.a */,
+				1A93DDAC2C1872A4006406A7 /* libresample.a */,
+				1A93DDA72C1872A4006406A7 /* libspeex.a */,
+				1A93DD9F2C1872A4006406A7 /* libsrtp.a */,
+				1A93DDA42C1872A4006406A7 /* libwebrtc.a */,
+				1A93DDA82C1872A4006406A7 /* libyuv.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A93DD8A2C187269006406A7 /* pjsip-rnd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A93DD992C18726B006406A7 /* Build configuration list for PBXNativeTarget "pjsip-rnd" */;
+			buildPhases = (
+				1A93DD872C187269006406A7 /* Sources */,
+				1A93DD882C187269006406A7 /* Frameworks */,
+				1A93DD892C187269006406A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pjsip-rnd";
+			productName = "pjsip-rnd";
+			productReference = 1A93DD8B2C187269006406A7 /* pjsip-rnd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A93DD832C187269006406A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1A93DD8A2C187269006406A7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1A93DD862C187269006406A7 /* Build configuration list for PBXProject "pjsip-rnd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A93DD822C187269006406A7;
+			productRefGroup = 1A93DD8C2C187269006406A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A93DD8A2C187269006406A7 /* pjsip-rnd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A93DD892C187269006406A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A93DD962C18726B006406A7 /* Preview Assets.xcassets in Resources */,
+				1A93DD932C18726B006406A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A93DD872C187269006406A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A93DD912C187269006406A7 /* ContentView.swift in Sources */,
+				1A93DD8F2C187269006406A7 /* pjsip_rndApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A93DD972C18726B006406A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A93DD982C18726B006406A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A93DD9A2C18726B006406A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pjsip-rnd/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G2DU2SAH6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hasnaine.pjsip-rnd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A93DD9B2C18726B006406A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pjsip-rnd/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G2DU2SAH6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+					"$(PROJECT_DIR)/pjsip-rnd/Preview\\ Content",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hasnaine.pjsip-rnd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A93DD862C187269006406A7 /* Build configuration list for PBXProject "pjsip-rnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A93DD972C18726B006406A7 /* Debug */,
+				1A93DD982C18726B006406A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A93DD992C18726B006406A7 /* Build configuration list for PBXNativeTarget "pjsip-rnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A93DD9A2C18726B006406A7 /* Debug */,
+				1A93DD9B2C18726B006406A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A93DD832C187269006406A7 /* Project object */;
+}
